@@ -1,5 +1,5 @@
 # Author: Deendayal Kumawat
-""" Date: 11/12/20
+""" Date: 11/12/19
 Descriptions: Pratice 02 """
 # Add two Numbers by using input method
 print("*********Input Method*********")
