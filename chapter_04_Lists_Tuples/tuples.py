@@ -3,7 +3,7 @@
 Descriptions: List And Tuples """
 # List is a just like container which store set of value of any data type
 # Creating a tuple using ()
-# Cannot update the values of a tuple
+# Cannot update the values of a tuple because tuples is immutable
 print("*********List and Tupples*********")
 # Creating a tuple using ()
 t = (1, 2, 4, 5)
