@@ -1,6 +1,7 @@
 # Author: Deendayal Kumawat
 """ Date: 22/12/19
-Descriptions: If elif and else"""
+Descriptions: Conditionals"""
+
 
 age = int(input("Enter your age: "))
 

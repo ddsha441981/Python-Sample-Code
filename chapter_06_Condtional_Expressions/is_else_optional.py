@@ -1,6 +1,7 @@
 # Author: Deendayal Kumawat
 """ Date: 22/12/19
-Descriptions: If elif and else"""
+Descriptions: Conditionals"""
+
 
 a = 6
 if(a==7):

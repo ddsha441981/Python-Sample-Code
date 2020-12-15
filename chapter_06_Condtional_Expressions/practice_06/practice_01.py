@@ -1,6 +1,6 @@
 # Author: Deendayal Kumawat
 """ Date: 22/12/19
-Descriptions: If elif and else"""
+Descriptions: Conditionals"""
 
 num1 = int(input("Enter number 1: "))
 num2 = int(input("Enter number 2: "))
