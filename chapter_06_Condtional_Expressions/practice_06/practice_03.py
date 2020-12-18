@@ -2,19 +2,20 @@
 """ Date: 22/12/19
 Descriptions: Conditionals"""
 
-text = input("Enter the text \n")
-if ("make a lot of money" in text):
+text = input("Enter the text\n")
+
+if("make a lot of money" in text):
     spam = True
-elif ("buy now " in text):
+elif("buy now" in text):
     spam = True
-elif "click this " in text:
+elif("click this" in text):
     spam = True
-elif ("subscribe this" in text):
+elif("subscribe this" in text):
     spam = True
 else:
     spam = False
 
-if (spam):
-    print("This text is spam....Avoid this \n")
+if(spam):
+    print("This text is spam")
 else:
-    print("This text is not spam...\n")
+    print("This text is not spam")
