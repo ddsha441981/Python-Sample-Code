@@ -4,7 +4,7 @@ Descriptions: File & IO"""
 
 # Use open function to read the content of a file
 '''
-If we don't delecare file mode then python by deault mode is r(read)
+If we don't declare file mode then python by default mode is r(read)
 We can also specify the number of character in read() function :
 file.read(5) Read only first 5 Character of a file
 
