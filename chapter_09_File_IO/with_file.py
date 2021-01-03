@@ -13,15 +13,27 @@ r = open for reading
 w = open for writing
 a = open for appending
 + = open for updating and reading
-[
+
 Binary Files Mode
 rb = will open for binary mode
 rt = will open for read in text mode
 
+syntax
+with open("filename.txt","r") as f:
+file = f.read()
+print(file)
+file.close()
+
+In file handling using with we don't need to close file because with automatically it's close
+
 '''
-# file = open("sample.txt","r")
-file = open("sample.txt")  # By Default mode is r
-#data = file.read() # Read a file content
-data = file.read(5) # Read only first 5 Character of a file
-print(data) # Display file content
-file.close() # Close file
+
+# Reading Mode
+with open("with_file.txt", "r") as f:
+    file = f.read()
+print(file)
+# file.close()
+
+# Writing Mode
+with open("with_file_writing.txt", "w") as file:
+    myFile = file.write("Hello This is example of with syntax..... in Writing mode")

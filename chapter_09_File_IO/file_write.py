@@ -13,15 +13,13 @@ r = open for reading
 w = open for writing
 a = open for appending
 + = open for updating and reading
-[
+
 Binary Files Mode
 rb = will open for binary mode
 rt = will open for read in text mode
-
 '''
-# file = open("sample.txt","r")
-file = open("sample.txt")  # By Default mode is r
-#data = file.read() # Read a file content
-data = file.read(5) # Read only first 5 Character of a file
-print(data) # Display file content
-file.close() # Close file
+# file = open("writing.txt","w") # Writing mode
+file = open("writing.txt", "a")  # Appending mode
+# text = file.write("Welcome To ")
+text = file.write(" \n Python")
+file.close()
